@@ -1,0 +1,10 @@
+﻿@model List<ListingEmployees_UsingPartialView.Models.Employee>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>Employee List Using Partial View</h2>
+    <partial name="_EmployeeListPartial" model="Model"/>
+</div>
